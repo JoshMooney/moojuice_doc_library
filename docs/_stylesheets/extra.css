@@ -1,0 +1,24 @@
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    width: 3.38rem;
+    height: 1.4rem;
+}
+
+img.screenshot {
+    display: block;
+    margin: 5px auto 5px auto;
+    filter: drop-shadow(5px 5px 3px #ddd);
+    border: 1px solid #ddd;
+}
+
+img.thumbnail {
+    width: 50%;
+}
+
+[data-md-color-scheme="slate"] img.screenshot {
+    filter: drop-shadow(5px 5px 3px #16181d);
+    border: 1px solid #16181d;
+}
+
+p {
+    text-align: justify;
+}
