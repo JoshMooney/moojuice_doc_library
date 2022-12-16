@@ -134,3 +134,4 @@ dmypy.json
 env/
 public/
 Moojuice_doc_library.egg-info/
+.DS_Store
