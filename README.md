@@ -14,3 +14,7 @@ If lost check out the `make help` command that should be able to do almost every
 * Usful icon FREE [link](https://www.flaticon.com/free-icon/cow_2431624)
 * Publishing documentation to Github Pages from Jenkings Pipeline [here](https://coderbook.com/@marcus/automatically-publish-your-documentation-to-github-pages-with-your-cicd-pipeline/)
 * How to install Jenkins on Docker [here](https://octopus.com/blog/jenkins-docker-install-guide)
+
+# TODO Tasks
+Setup versioning for the documentation
+https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/

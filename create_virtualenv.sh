@@ -2,13 +2,13 @@
 
 # This is not in use right now
 set -e
-pip install virtualenv
-virtualenv -p python3 env
+pip3 install virtualenv
+virtualenv -p python env
 
 source env/bin/activate
 
-pip install --upgrade -r requirements.txt
+pip3 install --upgrade -r requirements.txt
 
-pip install -e .
+pip3 install -e .
 
 deactivate

@@ -135,3 +135,6 @@ env/
 public/
 Moojuice_doc_library.egg-info/
 .DS_Store
+
+# Export directory of the make export command see make --help for more info
+_export/

@@ -81,6 +81,8 @@ extra:
 nav:
   - Welcome Page: 'index.md'
   - Nested Section:
+    - nested-page/index.md
+    - nested-page/sample.md
     - 'section-nested-page/index.md'
     - Sample Page: 'section-nested-page/sample.md'
     - Sample Page w/ Hidden Navigation: 'section-nested-page/sample-with-hidden-navigation.md'

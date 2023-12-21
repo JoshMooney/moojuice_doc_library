@@ -25,7 +25,20 @@ build:	## Builds a working static site
 serve: ## Hosts the static site locally for testing
 	mkdocs serve
 
-.PHONY: setup	
+.PHONY: deploy	
+deploy:	## Deploy to GH-Pages
+	mkdocs gh-deploy
+
+.PHONY: setup
 setup:	## Run the setup to build and run the project locally
 	chmod 755 ./create_virtualenv.sh
 	./create_virtualenv.sh
+
+.PHONY: template	
+template:	## Generates a template to the _export folder which can be copied to fresh repo's
+	mkdir -p _export
+	cp -r ./docs ./_export/
+	cp ./mkdocs.yml ./_export/
+
+	echo $"make help"
+	
